@@ -1,0 +1,14 @@
+[project]
+name = "Chrome-whisperx"
+version = "1.0.0"
+description = "FastAPI server for real-time audio transcription and translation using WhisperX"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.136.1",
+    "uvicorn[standard]>=0.46.0",
+    "python-multipart>=0.0.27",
+    "whisperx>=3.1.1",
+    "pydantic>=2.13.4",
+    "torch>=2.0.0",
+]
